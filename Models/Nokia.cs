@@ -5,17 +5,23 @@ namespace DesafioPOO.Models
 
     public class Nokia : Smartphone
     {
-        public Nokia(string numero, string modelo, string imei, int memoria) : base (numero,  modelo, imei, memoria)
+        public Nokia(string numero, string modelo, string imei, int memoria) : base (numero, modelo, imei, memoria)
         {
 
         }
+
         // TODO: Sobrescrever o método "InstalarAplicativo"
         // Implementado
-
         public override void InstalarAplicativo(string nomeApp)
         {
             Console.WriteLine($"{nomeApp} instalado com sucesso no seu Nokia!");
         }
 
+        //Implementação extra
+        //Data diferente
+        public override void Data()
+        {
+            Console.WriteLine(DateTime.Now.ToString("M"));
+        }
     }
 }
