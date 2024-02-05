@@ -1,5 +1,5 @@
 <div align="center">
-
+<img src="https://raw.githubusercontent.com/adrianycmc/trilha-net-poo-desafio/main/Imagens/Decola%20Tech.png">
 
 # DIO - Trilha .NET - Programação orientada a objetos
 </div>
